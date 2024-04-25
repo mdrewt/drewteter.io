@@ -1,0 +1,38 @@
+{
+  "name": "drewteter.io",
+  "version": "1.0.0",
+  "description": "A personal website where I can display the projects I'm working on.",
+  "main": "server.ts",
+  "scripts": {
+    "start": "nodemon ./server.ts localhost 8080",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdrewt/drewteter.io.git"
+  },
+  "keywords": [
+    "resume",
+    "personal",
+    "Drew",
+    "Teter"
+  ],
+  "author": "Michael Drew Teter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mdrewt/drewteter.io/issues"
+  },
+  "homepage": "https://github.com/mdrewt/drewteter.io#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.12.7",
+    "nodemon": "^3.1.0",
+    "ts-node": "^10.9.2",
+    "tslib": "^2.6.2",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-subdomain": "^1.0.6"
+  }
+}

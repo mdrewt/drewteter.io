@@ -1,0 +1,6 @@
+[submodule "www"]
+	path = www
+	url = git@github.com:mdrewt/www.drewteter.io.git
+[submodule "resume"]
+	path = resume
+	url = git@github.com:mdrewt/resume.drewteter.io.git
